@@ -10,9 +10,9 @@ print(sys.executable)
 pi = np.pi 
 
 x = np.linspace(0,5*pi,100)
-y1 = np.exp(-0.28*x)*np.sin(x + pi/3)
-y2 = np.exp(-0.45*x)*np.sin(x + 2*pi/3)
-y3 = np.exp(-0.99*x)*np.sin(x + 3*pi/3)
+y1 = np.exp(-0.3338*x)*np.sin(x + pi/3)
+y2 = np.exp(-0.4325*x)*np.sin(x + 2*pi/3)
+y3 = np.exp(-0.9123*x)*np.sin(x + 3*pi/3)
 
 plt.figure(1)
 plt.plot(x,y1,'b-')
